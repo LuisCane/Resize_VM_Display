@@ -1,0 +1,2 @@
+This file is used by the script to make sure the script is being run from its main directory.
+Certain Functions may not work as it uses relative pathing.
