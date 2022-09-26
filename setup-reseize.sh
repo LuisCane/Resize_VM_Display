@@ -50,7 +50,7 @@ RootCheck() {
 #Make sure script is being run from within the script's directory.
 ScriptDirCheck() {
     sleep 1s
-    DirCheckFile=./.dircheckfile
+    DirCheckFile=./files/.dircheckfile
     if [[ -f "$DirCheckFile" ]]; then
         return 0
     else
